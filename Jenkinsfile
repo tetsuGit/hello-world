@@ -15,6 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying1...'
+                print "param value=${param01}"
             }
         }
     }
